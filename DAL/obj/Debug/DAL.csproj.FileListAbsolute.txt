@@ -1,0 +1,8 @@
+D:\An3\sem2\PS\A-ZApplication\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\An3\sem2\PS\A-ZApplication\DAL\bin\Debug\DAL.dll
+D:\An3\sem2\PS\A-ZApplication\DAL\bin\Debug\DAL.pdb
+D:\An3\sem2\PS\A-ZApplication\DAL\bin\Debug\Entities.dll
+D:\An3\sem2\PS\A-ZApplication\DAL\bin\Debug\MySql.Data.dll
+D:\An3\sem2\PS\A-ZApplication\DAL\bin\Debug\Entities.pdb
+D:\An3\sem2\PS\A-ZApplication\DAL\obj\Debug\DAL.dll
+D:\An3\sem2\PS\A-ZApplication\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6AAA18BC-D494-4950-8246-9E5F97215BF5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>A_ZApplication</RootNamespace>
+    <AssemblyName>A-ZApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ui\Employee\FormDeleteArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Employee\FormDeleteArticle.Designer.cs">
+      <DependentUpon>FormDeleteArticle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Employee\FormUpdateArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Employee\FormUpdateArticle.Designer.cs">
+      <DependentUpon>FormUpdateArticle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Employee\FormReadArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Employee\FormReadArticle.Designer.cs">
+      <DependentUpon>FormReadArticle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Employee\FormCreateArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Employee\FormCreateArticle.Designer.cs">
+      <DependentUpon>FormCreateArticle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Admin\FormDeleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Admin\FormDeleteUser.Designer.cs">
+      <DependentUpon>FormDeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Admin\FormUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Admin\FormUpdateUser.Designer.cs">
+      <DependentUpon>FormUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Admin\FormReadUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Admin\FormReadUser.Designer.cs">
+      <DependentUpon>FormReadUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Admin\FormCreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Admin\FormCreateUser.Designer.cs">
+      <DependentUpon>FormCreateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Admin\FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Admin\FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Employee\FormEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Employee\FormEmployee.Designer.cs">
+      <DependentUpon>FormEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ui\Employee\FormDeleteArticle.resx">
+      <DependentUpon>FormDeleteArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Employee\FormUpdateArticle.resx">
+      <DependentUpon>FormUpdateArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Employee\FormReadArticle.resx">
+      <DependentUpon>FormReadArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Employee\FormCreateArticle.resx">
+      <DependentUpon>FormCreateArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Admin\FormDeleteUser.resx">
+      <DependentUpon>FormDeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Admin\FormUpdateUser.resx">
+      <DependentUpon>FormUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Admin\FormReadUser.resx">
+      <DependentUpon>FormReadUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Admin\FormCreateUser.resx">
+      <DependentUpon>FormCreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Admin\FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Employee\FormEmployee.resx">
+      <DependentUpon>FormEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{FE195640-9CA2-422B-8A5D-8341342FCE01}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{9E4587CC-ACD9-493C-BB1D-C1463B22F971}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+D:\An3\sem2\PS\A-ZApplication\Entities\bin\Debug\Entities.dll
+D:\An3\sem2\PS\A-ZApplication\Entities\bin\Debug\Entities.pdb
+D:\An3\sem2\PS\A-ZApplication\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\An3\sem2\PS\A-ZApplication\Entities\obj\Debug\Entities.dll
+D:\An3\sem2\PS\A-ZApplication\Entities\obj\Debug\Entities.pdb
